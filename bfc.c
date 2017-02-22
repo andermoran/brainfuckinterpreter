@@ -55,7 +55,7 @@ void checkArgs(int argc, char *argv[]) {
 }
 
 void printUsage() {
-	printf("Usage: ./bfc filename.b\n");
+	printf("Usage: bfc filename.b\n");
 }
 
 char *brainfuckToC (int argc, char *argv[]) {
